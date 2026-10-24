@@ -1,0 +1,7 @@
+part,features,n_features,iterations,mse_vs_true
+V,polynomial (deg 3),10,20000,1783.1598555715334
+V,RBF,16,20000,640.648059861092
+V,tile coding (3 tilings),16,11646,419.1427045186192
+V,coarse coding (3 fields),16,2960,735.2783653205822
+V,state aggregation,16,2993,534.190782835854
+Q,tile coding (3 tilings),80,20000,1498.3333143524565

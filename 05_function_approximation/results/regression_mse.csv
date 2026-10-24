@@ -1,0 +1,21 @@
+target,n_centers,features,n_features,iterations,mse
+smooth,20,polynomial (deg 5),6,20000,2.1493388944771183
+smooth,20,RBF,20,20000,0.009109409210322045
+smooth,20,tile coding (3 tilings),20,1695,0.22074827007503303
+smooth,20,coarse coding (3 fields),20,258,0.02068376449870535
+smooth,20,state aggregation,20,44,0.15256509755581674
+piecewise,20,polynomial (deg 5),6,20000,21358.45143484219
+piecewise,20,RBF,20,20000,2465.5582105435155
+piecewise,20,tile coding (3 tilings),20,3101,2726.8673423114483
+piecewise,20,coarse coding (3 fields),20,364,1777.337567213807
+piecewise,20,state aggregation,20,55,2675.7864828571223
+smooth,100,polynomial (deg 5),6,20000,2.1493388944771183
+smooth,100,RBF,100,20000,0.0010446799277743812
+smooth,100,tile coding (3 tilings),100,295,2.0429624282038493e-09
+smooth,100,coarse coding (3 fields),100,116,5.899198699938321e-10
+smooth,100,state aggregation,100,21,4.840589982729194e-12
+piecewise,100,polynomial (deg 5),6,20000,21358.45143484219
+piecewise,100,RBF,100,20000,280.59183807450626
+piecewise,100,tile coding (3 tilings),100,580,2.1874368844117304e-09
+piecewise,100,coarse coding (3 fields),100,207,6.517418828914223e-10
+piecewise,100,state aggregation,100,26,5.803958858916864e-12

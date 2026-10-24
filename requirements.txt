@@ -1,0 +1,28 @@
+# Tested with Python 3.13.17 on Linux.
+#
+# gym_gridworlds is pinned to a commit, not to a release, and that pin is the
+# single most important line in this file.
+#
+# The CMPUT 655 assignments this repository is built from ran against the
+# October 2024 state of https://github.com/sparisi/gym_gridworlds.  Upstream
+# has since changed two things that break code silently rather than loudly:
+#
+#   1. the action encoding went from  LEFT 0, DOWN 1, RIGHT 2, UP 3, STAY 4
+#      to                             LEFT 0, RIGHT 1, DOWN 2, UP 3, STAY 4
+#      so every policy written as integers now means something different and
+#      nothing raises an error;
+#   2. `Empty-2x2-v0` and `DangerMaze-6x6-v0` were removed and replaced by
+#      `Empty-RandomStart-2x2-v0` and `DangerMaze-5x6-v0`.
+#
+# Commit 250e628, dated 14 October 2024, is the last commit before the course
+# assignments were due and is the one the numbers in these READMEs come from.
+# The code is also written to survive the pin being lifted: actions are
+# resolved by name and environment ids are resolved against the registry, in
+# rlkit/envs.py.
+
+gym_gridworlds @ git+https://github.com/sparisi/gym_gridworlds@250e628
+gymnasium==1.4.0
+numpy==2.5.3
+matplotlib==3.11.2
+scipy==1.18.1
+pytest==8.*

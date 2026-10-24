@@ -1,0 +1,11 @@
+variant,final_return,final_return_std,mean_over_training
+Monte Carlo return,0.941480149401,0.0,0.8334345782407978
+5-step return,0.941480149401,0.0,0.5404799029406627
+"lambda-return, lambda = 0.9",0.941480149401,0.0,0.7884795826684108
+1-step return,0.941480149401,0.0,0.25655746689766934
+3-step return,0.941480149401,0.0,0.39436343906049337
+5-step return,0.941480149401,0.0,0.5404799029406627
+20-step return,0.941480149401,0.0,0.8192246471173509
+mc on Gym-Gridworlds/DangerMaze-6x6-v0,0.0,0.0,-1.405
+nstep on Gym-Gridworlds/DangerMaze-6x6-v0,0.0,0.0,0.0
+lambda on Gym-Gridworlds/DangerMaze-6x6-v0,0.0,0.0,0.0
